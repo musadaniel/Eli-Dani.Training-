@@ -1,0 +1,16 @@
+{
+  "name": "Daniel & Elina Training",
+  "short_name": "D&E Training",
+  "description": "Guía visual y registro de entrenamiento de fuerza",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0d12",
+  "theme_color": "#0a0d12",
+  "icons": [
+    {"src":"./assets/icons/icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"./assets/icons/icon-512.png","sizes":"512x512","type":"image/png"},
+    {"src":"./assets/icons/icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ]
+}
