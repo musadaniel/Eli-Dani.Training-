@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="116" fill="#0b0f15"/>
+  <path d="M106 190h42v132h-42zm258 0h42v132h-42zM72 218h32v76H72zm336 0h32v76h-32zM148 238h216v36H148z" fill="#d8ff3e"/>
+  <text x="256" y="151" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="86" font-weight="900">D&amp;E</text>
+  <text x="256" y="386" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="40" font-weight="800" letter-spacing="5">TRAINING</text>
+</svg>
