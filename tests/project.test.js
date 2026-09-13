@@ -28,6 +28,13 @@ test('todos los recursos de equipo existen',async()=>{
   for(const eq of Object.values(equipment)) for(const img of eq.images) await access(new URL(`../assets/equipment/${img}`,import.meta.url));
 });
 
+test('cada ejercicio tiene su guía visual anatómica optimizada',async()=>{
+  for(const id of Object.keys(exerciseLibrary)) await access(new URL(`../assets/exercises/${id}.webp`,import.meta.url));
+  const app=await readFile(new URL('../js/app.js',import.meta.url),'utf8');
+  assert.match(app,/assets\/exercises/);
+  assert.doesNotMatch(app,/equipmentStrip|motionSvg/);
+});
+
 test('manifest y service worker usan rutas relativas para GitHub Pages',async()=>{
   const manifest=JSON.parse(await readFile(new URL('../manifest.webmanifest',import.meta.url),'utf8'));
   assert.equal(manifest.start_url,'./'); assert.equal(manifest.scope,'./');

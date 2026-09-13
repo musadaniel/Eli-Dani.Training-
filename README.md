@@ -19,7 +19,8 @@ Un service worker requiere HTTP. Ejecuta un servidor estático en esta carpeta y
 - `js/data.js`: biblioteca maestra y rutinas iniciales.
 - `js/db.js`: capa IndexedDB, historial y backup.
 - `js/app.js`: interfaz y flujos.
-- `assets/equipment`: fotografías optimizadas del equipo real.
-- `sw.js`: app shell offline y caché progresivo.
+- `assets/exercises`: 61 guías anatómicas verticales, una por ejercicio, con inicio y final.
+- `assets/equipment`: referencias fotográficas originales del equipo real, conservadas fuera de la interfaz.
+- `sw.js`: app shell offline y caché progresivo de las guías visuales a medida que se usan.
 
 No hay backend, login ni servicios remotos.
